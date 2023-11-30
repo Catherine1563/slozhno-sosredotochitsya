@@ -4,9 +4,45 @@
   переключая тему
 */
 
+.theme_light {
+    --accent-color: #353430;
+    --title-color: #FFC2E6;
+    --header-text-color: #353430;
+    --text-background: #FF8DCB;
+    --content-text-color: #353430;
+    --hover-color: rgba(50, 49, 45, 0.40);
+    --page-image: url(../images/cover-image-light.png);
+}
+
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
+    /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+    background-image: var(--page-image);
+}
+
+.theme_light .header__theme-menu-button_type_light {
+    border: 1px solid var(--accent-color);
+}
+
+.theme_light .header__up-block-rec::before {
+    content: '';
+}
+
+.theme_light .header__dot::before,
+.theme_light .header__dot::after {
+    content: '';
+    background-color: transparent;
+}
+
+@media (prefers-color-scheme: light) {
+     :root {
+        --accent-color: #353430;
+        --title-color: #FFC2E6;
+        --text-color: #353430;
+        --text-background: #FF8DCB;
+        --hover-color: rgba(50, 49, 45, 0.40);
+        --page-image: url(../images/cover-image-light.png);
+    }
 }
