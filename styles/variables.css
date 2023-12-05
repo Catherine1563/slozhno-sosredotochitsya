@@ -15,10 +15,7 @@
     --small-text: 18px;
     --haeder-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     --padding-header: 10px;
-    --padding-nav: 40px 0px 68px;
-    --padding-title: 55px;
     --width-paragraph: 355px;
-    --margin-paragraph: 31px;
     --padding-concentrate: 40px 10px 20px;
     --padding-concentration: 20px 10px 20px;
     --padding-advice: 20px 10px 30px;
@@ -26,49 +23,31 @@
     --gallery-gap: 10px;
     --gallery-block-gap: 10px;
     --padding-footer: 10px;
-    --margin-footer__block-rec: 252px;
-    --footer-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    --margin-footer__block: 250px;
 }
 
 @media ((min-width: 768px) and (max-width:1023.999px)) {
      :root {
-        --padding-header: 20px 20px 20px 0;
-        --padding-nav: 147px 0 173px;
-        --haeder-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-        --padding-title: 162px;
         --width-paragraph: 364px;
-        --margin-paragraph: 138px;
-        --padding-concentrate: 60px 20px 20px;
-        --padding-concentration: 50px 20px 20px;
         --padding-advice: 50px 20px 50px;
-        --padding-gallery: 20px 20px 60px;
-        --gallery-gap: 20px;
-        --gallery-block-gap: 20px;
-        --padding-footer: 20px;
-        --margin-footer__block-rec: 417px;
-        --footer-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-        --margin-footer__block: 417px;
     }
 }
 
 @media (min-width: 1024px) {
      :root {
-        --padding-header: 20px 20px 20px 0;
-        --padding-nav: 0 0 275px;
-        --haeder-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-        --padding-title: 114px;
         --width-paragraph: 491px;
-        --margin-paragraph: 89px;
+        --padding-advice: 25px 20px 50px;
+    }
+}
+
+@media ((min-width: 768px) and (max-width:1023.999px)) or (min-width: 1024px) {
+     :root {
+        --padding-header: 20px 20px 20px 0;
+        --haeder-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
         --padding-concentrate: 60px 20px 20px;
         --padding-concentration: 50px 20px 20px;
-        --padding-advice: 50px 20px 50px;
-        --padding-gallery: 20px 20px 60px;
+        --padding-gallery: 20px 20px 57px;
         --gallery-gap: 20px;
         --gallery-block-gap: 20px;
         --padding-footer: 20px;
-        --margin-footer__block-rec: 274px;
-        --footer-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-        --margin-footer__block: 274px;
     }
 }

@@ -26,14 +26,8 @@
     border: 1px solid var(--accent-color);
 }
 
-.theme_light .header__up-block-rec::before {
-    content: '';
-}
-
-.theme_light .header__dot::before,
-.theme_light .header__dot::after {
-    content: '';
-    background-color: transparent;
+.theme_light .header__up-block-rec {
+    display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -42,7 +36,11 @@
         --title-color: #FFC2E6;
         --text-color: #353430;
         --text-background: #FF8DCB;
+        --content-text-color: #353430;
         --hover-color: rgba(50, 49, 45, 0.40);
         --page-image: url(../images/cover-image-light.png);
+    }
+    .header__up-block-rec {
+        display: none;
     }
 }
