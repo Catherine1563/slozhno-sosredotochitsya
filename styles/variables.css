@@ -28,14 +28,16 @@
 @media ((min-width: 768px) and (max-width:1023.999px)) {
      :root {
         --width-paragraph: 364px;
-        --padding-advice: 50px 20px 50px;
+        --padding-advice: 50px 20px 0px;
+        --padding-concentration: 50px 20px 20px;
     }
 }
 
 @media (min-width: 1024px) {
      :root {
         --width-paragraph: 491px;
-        --padding-advice: 25px 20px 50px;
+        --padding-advice: 25px 20px 20px;
+        --padding-concentration: 50px 20px 45px;
     }
 }
 
@@ -44,8 +46,7 @@
         --padding-header: 20px 20px 20px 0;
         --haeder-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
         --padding-concentrate: 60px 20px 20px;
-        --padding-concentration: 50px 20px 20px;
-        --padding-gallery: 20px 20px 57px;
+        --padding-gallery: 0px 20px 57px;
         --gallery-gap: 20px;
         --gallery-block-gap: 20px;
         --padding-footer: 20px;

@@ -40,28 +40,4 @@
         --hover-color: rgba(255, 0, 112, 0.40);
         --page-image: url(../images/cover-image-dark.png);
     }
-    .header__dot {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: var(--accent-color);
-        font-family: var(--main-font), monospace;
-        font-size: var(--small-text);
-        text-transform: uppercase;
-        position: relative;
-    }
-    .header__dot::before {
-        content: '';
-        position: absolute;
-        color: var(--accent-color);
-        font-family: var(--main-font), monospace;
-        font-size: var(--small-text);
-        background-color: var(--accent-color);
-        width: 9px;
-        height: 9px;
-        border-radius: 50%;
-        text-align: center;
-        left: 42px;
-        filter: drop-shadow(0px 0px 4px 2px var(--accent-color));
-    }
 }
